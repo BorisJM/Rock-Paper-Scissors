@@ -1,0 +1,74 @@
+@media (width <= 89.75em) {
+  li {
+    font-size: 1.8rem;
+  }
+
+  .rules-window {
+    padding: 2rem 5rem;
+  }
+}
+
+@media (width <= 75em) {
+  li {
+    font-size: 1.9rem;
+  }
+
+  .figures-container {
+    padding: 5rem 0;
+  }
+
+  .rules-window {
+    padding: 3rem 6rem;
+  }
+
+  .user-pick, .cpu-pick {
+    top: 3%;
+  }
+}
+
+@media (width <= 62.5em) {
+  .figures-container {
+    padding: 5rem 0;
+  }
+
+  .rules-window ol li {
+    font-size: 1.7rem;
+  }
+
+  .rules-window {
+    padding: 3rem 4rem 2rem;
+  }
+}
+
+@media (width <= 50em) {
+  .rules-window ol li {
+    font-size: 1.25rem;
+  }
+
+  .rules-window {
+    padding: 2rem 3rem;
+  }
+
+  .figure-btn img {
+    width: 80px;
+  }
+
+  .figure-btn {
+    padding: 10px 20px;
+  }
+
+  .figure-btn:after {
+    padding: 80px;
+  }
+
+  .result {
+    font-size: 1.5rem;
+  }
+
+  .again-btn {
+    padding: .8rem 1.6rem;
+    font-size: 1.2rem;
+  }
+}
+
+/*# sourceMappingURL=index.cdd200e8.css.map */

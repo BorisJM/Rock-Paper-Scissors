@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script defer type="module" src="index.js"></script>
+    <title>Rock-Paper-Scissors</title>
+  </head>
+  <body>
+    <div class="overlay hidden"></div>
+    <div class="scoreboard">
+      <p>score</p>
+      <span class="user-score">0</span>
+    </div>
+    <main class="choosing-figure-container">
+      <h1 class="heading-primary">Choose a figure</h1>
+      <div class="figures-container">
+        <button class="figure-btn" data-figure="rock">
+          <img src="images/icon-rock.svg" alt="Rock" />
+        </button>
+
+        <button class="figure-btn" data-figure="paper">
+          <img src="images/icon-paper.svg" alt="Paper" />
+        </button>
+        <button class="figure-btn" data-figure="scissors">
+          <img src="images/icon-scissors.svg" alt="scissors" />
+        </button>
+      </div>
+    </main>
+    <div class="rules-window hidden">
+      <button class="close-btn">
+        <span class="close-icon">&#10006;</span>
+      </button>
+      <ol>
+        <li>Rock wins against scissors</li>
+        <li>Paper wins against rock</li>
+        <li>Scissors wins against paper</li>
+        <li>Two same figures = tie</li>
+      </ol>
+    </div>
+    <footer>
+      <button class="rules-btn">Rules</button>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
